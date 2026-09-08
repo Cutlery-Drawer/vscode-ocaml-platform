@@ -14,11 +14,11 @@
       "comment": "sequence of rules",
       "begin": "%%",
       "beginCaptures": {
-        "1": { "name": "keyword.other.menhir" }
+        "0": { "name": "keyword.other.menhir" }
       },
       "end": "%%",
       "endCaptures": {
-        "1": { "name": "keyword.other.menhir" }
+        "0": { "name": "keyword.other.menhir" }
       },
       "patterns": [{ "include": "#comments" }, { "include": "#rules" }]
     },
@@ -49,11 +49,11 @@
           "comment": "ocaml header",
           "begin": "%{",
           "beginCaptures": {
-            "1": { "name": "keyword.other.menhir" }
+            "0": { "name": "keyword.other.menhir" }
           },
           "end": "%}",
           "endCaptures": {
-            "1": { "name": "keyword.other.menhir" }
+            "0": { "name": "keyword.other.menhir" }
           },
           "patterns": [{ "include": "source.ocaml" }]
         },
@@ -61,7 +61,7 @@
           "comment": "token declaration",
           "begin": "%token\\b",
           "beginCaptures": {
-            "1": { "name": "keyword.other.menhir" }
+            "0": { "name": "keyword.other.menhir" }
           },
           "end": "(?=%)",
           "patterns": [
@@ -76,7 +76,7 @@
           "comment": "associativity declaration",
           "begin": "%(?:nonassoc|left|right)\\b",
           "beginCaptures": {
-            "1": { "name": "keyword.other.menhir" }
+            "0": { "name": "keyword.other.menhir" }
           },
           "end": "(?=%)",
           "patterns": [
@@ -91,7 +91,7 @@
           "comment": "type/start/on_error_reduce declaration",
           "begin": "%(?:type|start|on_error_reduce)\\b",
           "beginCaptures": {
-            "1": { "name": "keyword.other.menhir" }
+            "0": { "name": "keyword.other.menhir" }
           },
           "end": "(?=%)",
           "patterns": [
@@ -111,7 +111,7 @@
           "comment": "attribute declaration",
           "begin": "%(?:attribute\\b|(?=\\[))",
           "beginCaptures": {
-            "1": { "name": "keyword.other.menhir" }
+            "0": { "name": "keyword.other.menhir" }
           },
           "end": "(?=%)",
           "patterns": [
@@ -130,10 +130,10 @@
           "begin": "<",
           "end": ">",
           "beginCaptures": {
-            "1": { "name": "keyword.other.menhir" }
+            "0": { "name": "keyword.other.menhir" }
           },
           "endCaptures": {
-            "1": { "name": "keyword.other.menhir" }
+            "0": { "name": "keyword.other.menhir" }
           },
           "patterns": [{ "include": "source.ocaml" }]
         }
@@ -188,7 +188,7 @@
           "comment": "production",
           "begin": "[:|]",
           "beginCaptures": {
-            "1": { "name": "keyword.other.menhir" }
+            "0": { "name": "keyword.other.menhir" }
           },
           "end": "(?=[{<|]|let\\b|[[:lower:]_][[:word:]]*[[:space:]]*(?:\\([^)]+\\)[[:space:]]*)?:|%(?!prec\\b))",
           "patterns": [
@@ -237,7 +237,7 @@
           "comment": "production",
           "begin": "[:|]",
           "beginCaptures": {
-            "1": { "name": "keyword.other.menhir" }
+            "0": { "name": "keyword.other.menhir" }
           },
           "end": "(?=[{<|]|let\\b|[[:lower:]_][[:word:]]*[[:space:]]*(?:\\([^)]+\\)[[:space:]]*)?:|%(?!prec\\b))",
           "patterns": [
@@ -263,11 +263,11 @@
       "contentName": "source.embedded-action.menhir",
       "begin": "{",
       "beginCaptures": {
-        "1": { "name": "keyword.other.menhir" }
+        "0": { "name": "keyword.other.menhir" }
       },
       "end": "}",
       "endCaptures": {
-        "1": { "name": "keyword.other.menhir" }
+        "0": { "name": "keyword.other.menhir" }
       },
       "patterns": [{ "include": "source.ocaml" }]
     },
@@ -278,11 +278,11 @@
           "comment": "point-free ocaml semantic action",
           "begin": "<",
           "beginCaptures": {
-            "1": { "name": "keyword.other.menhir" }
+            "0": { "name": "keyword.other.menhir" }
           },
           "end": ">",
           "endCaptures": {
-            "1": { "name": "keyword.other.menhir" }
+            "0": { "name": "keyword.other.menhir" }
           },
           "patterns": [{ "include": "source.ocaml" }]
         }

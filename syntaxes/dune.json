@@ -3906,10 +3906,10 @@
           "begin": "%\\{",
           "end": "\\}",
           "beginCaptures": {
-            "1": { "name": "keyword.operator.dune" }
+            "0": { "name": "keyword.operator.dune" }
           },
           "endCaptures": {
-            "1": { "name": "keyword.operator.dune" }
+            "0": { "name": "keyword.operator.dune" }
           },
           "patterns": [
             {
@@ -3990,10 +3990,10 @@
           "begin": "(\\%\\{)",
           "end": "(\\})",
           "beginCaptures": {
-            "1": { "name": "constant.character.escape.dune" }
+            "0": { "name": "constant.character.escape.dune" }
           },
           "endCaptures": {
-            "1": { "name": "constant.character.escape.dune" }
+            "0": { "name": "constant.character.escape.dune" }
           },
           "patterns": [
             {

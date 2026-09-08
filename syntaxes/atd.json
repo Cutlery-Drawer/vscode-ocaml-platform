@@ -23,7 +23,7 @@
             "2": { "name": "keyword.other.atd" }
           },
           "endCaptures": {
-            "1": { "name": "keyword.other.atd" }
+            "0": { "name": "keyword.other.atd" }
           },
           "patterns": [{ "include": "$self" }]
         }

@@ -136,10 +136,10 @@
           "begin": "\\[\\^?",
           "end": "\\]",
           "beginCaptures": {
-            "1": { "name": "keyword.other.regex" }
+            "0": { "name": "keyword.other.regex" }
           },
           "endCaptures": {
-            "1": { "name": "keyword.other.regex" }
+            "0": { "name": "keyword.other.regex" }
           },
           "contentName": "source.regex",
           "patterns": [{ "name": "keyword.other.regex", "match": "-" }]
@@ -148,10 +148,10 @@
           "begin": "\\((\\?[:=!])?",
           "end": "\\)",
           "beginCaptures": {
-            "1": { "name": "keyword.other.regex" }
+            "0": { "name": "keyword.other.regex" }
           },
           "endCaptures": {
-            "1": { "name": "keyword.other.regex" }
+            "0": { "name": "keyword.other.regex" }
           },
           "contentName": "source.regex",
           "patterns": [{ "include": "#regex" }]
@@ -160,10 +160,10 @@
           "begin": "{",
           "end": "}",
           "beginCaptures": {
-            "1": { "name": "keyword.other.regex" }
+            "0": { "name": "keyword.other.regex" }
           },
           "endCaptures": {
-            "1": { "name": "keyword.other.regex" }
+            "0": { "name": "keyword.other.regex" }
           },
           "contentName": "source.regex",
           "patterns": [

@@ -32,10 +32,10 @@
           "begin": "<",
           "end": ">",
           "beginCaptures": {
-            "1": { "name": "keyword.operator.ocamlbuild" }
+            "0": { "name": "keyword.operator.ocamlbuild" }
           },
           "endCaptures": {
-            "1": { "name": "keyword.operator.ocamlbuild" }
+            "0": { "name": "keyword.operator.ocamlbuild" }
           },
           "name": "string.quoted.double.ocamlbuild",
           "patterns": [{ "include": "#patterns" }]
@@ -70,10 +70,10 @@
           "begin": "{",
           "end": "}",
           "beginCaptures": {
-            "1": { "name": "keyword.operator.ocamlbuild" }
+            "0": { "name": "keyword.operator.ocamlbuild" }
           },
           "endCaptures": {
-            "1": { "name": "keyword.operator.ocamlbuild" }
+            "0": { "name": "keyword.operator.ocamlbuild" }
           },
           "patterns": [
             { "name": "keyword.operator.ocamlbuild", "match": "," },
@@ -84,10 +84,10 @@
           "begin": "\\[\\^?",
           "end": "\\]",
           "beginCaptures": {
-            "1": { "name": "keyword.operator.ocamlbuild" }
+            "0": { "name": "keyword.operator.ocamlbuild" }
           },
           "endCaptures": {
-            "1": { "name": "keyword.operator.ocamlbuild" }
+            "0": { "name": "keyword.operator.ocamlbuild" }
           }
         }
       ]
